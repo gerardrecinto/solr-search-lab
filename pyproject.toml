@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "solr-search-lab"
+version = "0.1.0"
+description = "Solr search portfolio project: schema/analysis design for CI build-log search, synonym expansion, faceting, cursorMark pagination, relevance tuning, and zero-downtime reindex via core swap."
+requires-python = ">=3.10"
+
+[tool.setuptools.packages.find]
+include = ["solr_search_lab*"]
