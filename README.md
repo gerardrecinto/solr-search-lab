@@ -1,12 +1,12 @@
 # solr-search-lab
 
-A Solr search portfolio project: schema and text-analysis design for
+A Solr search lab: schema and text-analysis design for
 searching CI build logs, synonym expansion, faceting, cursorMark
 pagination, relevance tuning, and a zero-downtime reindex via core swap —
 run against a real local Solr instance, with three real operational
 gotchas hit and fixed while building it.
 
-**Honesty note**: this closes a genuine hands-on gap. Everything here,
+**Scope**: everything here,
 including the three incidents below, was hit and fixed in this lab, not
 written from documentation alone.
 

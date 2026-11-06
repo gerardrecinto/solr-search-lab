@@ -2,14 +2,14 @@
 
 ## What this is
 
-A Solr search portfolio project closing a genuine hands-on gap: text
+A Solr search lab: text
 analysis and schema design for CI build-log search, synonym expansion,
 faceting, cursorMark pagination, relevance tuning, and a zero-downtime
 reindex pattern — including three real operational bugs hit and fixed
 while building it, documented with the actual error text and root cause,
 not smoothed over into a clean narrative.
 
-## Resume bullets (accurate language only)
+## What was built
 
 - Designed a Solr text-analysis chain (tokenization, word-delimiter
   splitting, index-time synonym expansion) for searching CI build logs,
@@ -26,11 +26,10 @@ not smoothed over into a clean narrative.
   that silently duplicated results.
 
 **Not used, and why**: "operated Solr/SolrCloud in production," "scaled
-search to production traffic" — no prior professional Solr experience;
-this closes a stated gap through new hands-on work, and this lab runs
-standalone Solr, not a production SolrCloud cluster.
+search to production traffic" — no production Solr/SolrCloud deployment;
+this lab runs standalone Solr, not a production SolrCloud cluster.
 
-## Interview talking points
+## Design notes
 
 **"Walk me through your text analysis chain."**
 `StandardTokenizer` splits on whitespace/punctuation, `WordDelimiterGraphFilter`
